@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="4.4.4" transformSequenceNumber="1">
+  <directoryPresets config="D:/MSG/cp/target/lib" />
+  <application name="price_compare" distributionSourceDir="C:/Users/wanglei/Desktop">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="price_compare" type="2" iconSet="false" iconFile="" executableDir="." redirectStderr="false" stderrFile="error.log" stderrMode="overwrite" redirectStdout="false" stdoutFile="output.log" stdoutMode="overwrite" failOnStderrOutput="true" executableMode="2" changeWorkingDirectory="true" workingDirectory="." singleInstance="false" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" globalSingleInstance="false" amd64="false">
+    <messageSet />
+    <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" productName="" companyName="" productVersion="" />
+  </executable>
+  <splashScreen show="false" autoOff="true" alwaysOnTop="true" width="0" height="0" bitmapFile="" java6SplashScreen="false">
+    <text>
+      <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+      <versionLine x="20" y="40" text="version %VERSION%" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="org.topcat.clam.Search" vmParameters="" arguments="" allowVMPassthroughParameters="false" preferredVM="" bundleRuntime="true" minVersion="1.6" maxVersion="" allowBetaVM="false" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="D:/MSG/cp/target/cp-0.0.1-SNAPSHOT.jar" failOnError="false" />
+      <archive location="D:/MSG/cp/target/lib/commons-codec-1.2.jar" failOnError="false" />
+      <archive location="D:/MSG/cp/target/lib/commons-httpclient-3.1.jar" failOnError="false" />
+      <archive location="D:/MSG/cp/target/lib/commons-logging-1.0.4.jar" failOnError="false" />
+      <archive location="D:/MSG/cp/target/lib/htmllexer-2.1.jar" failOnError="false" />
+      <archive location="D:/MSG/cp/target/lib/htmlparser-2.1.jar" failOnError="false" />
+      <archive location="D:/MSG/cp/target/lib/json-20090211.jar" failOnError="false" />
+      <archive location="D:/MSG/cp/target/lib/jxl-2.6.12.jar" failOnError="false" />
+      <archive location="D:/MSG/cp/target/lib/log4j-1.2.14.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
+
